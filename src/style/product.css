@@ -1,0 +1,115 @@
+#container{
+   
+   margin-left:5% ;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20%;
+    gap: 5%;
+    
+}
+#container>*{
+    background-color: rgba(239, 241, 235, 0.651);
+    height: 300px;
+    border: 1px solid rgb(220, 228, 220);
+    border-radius: 20px;
+    margin-top: 10%;
+}
+#img{
+    height: 45%;
+    overflow: hidden;
+    border:1px solid rgb(209, 203, 203);
+    border-radius: 20px;
+}
+img{
+    height: 85%;
+    
+}
+#wine{
+    height: 15%;
+    overflow: hidden;
+    color: antiquewhite;
+}
+#wine ::first-line{
+    color: black;
+}
+#winery{
+    height:15%;
+    overflow: hidden;
+    color: antiquewhite;
+}
+#winery::first-line{
+    color: black;
+}
+#cart{
+   margin-top: 6%;
+   border: none;
+   padding: 10px;
+   
+   cursor: pointer;
+   background-color: rgba(201, 223, 168, 0.651);
+   border-radius: 20px;
+   border: 1px solid rgb(11, 236, 11);
+}
+#delete{
+    margin-top: 6%;
+    border: none;
+    padding: 10px;
+    
+    cursor: pointer;
+    background-color: rgba(223, 128, 128, 0.651);
+    border-radius: 20px;
+    border: 1px solid rgb(236, 56, 11);
+}
+#save{
+    margin-top: 6%;
+    margin-left: 2%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(201, 223, 168, 0.651);
+    border-radius: 20px;
+    border: 1px solid rgb(11, 236, 11);
+}
+#rightButton{
+    justify-self: center;
+   align-items: center;
+}
+#pagenation{
+    background-color: rgba(201, 223, 168, 0.651);
+    border-radius: 5px;
+    border: 1px solid rgb(11, 236, 11);
+    padding: 5px;
+    margin: 10% 5% 0 0;
+    width: 100px;
+    cursor: pointer;
+}
+#box{
+    margin-bottom: 4%;
+}
+#filter{
+    border: 0.5px solid rgb(223, 217, 217);
+   width: 100%;
+   padding: 20px;
+    
+}
+#filter>*{
+    margin: 10px;
+}
+#filter>select{
+    width: 150px;
+    height: 30px;
+}
+#filter>button{
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgba(201, 223, 168, 0.651);
+    border-radius: 5px;
+    border: 1px solid rgb(11, 236, 11);
+}
+#noresult{
+   
+    background-color: none;
+    color: red;
+    margin-left: 200%;
+    font-size: 40px;
+}
