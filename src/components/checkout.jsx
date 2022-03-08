@@ -11,17 +11,17 @@ export const Check=()=>{
   </label> <br/>
   <label>
     email: <br/>
-    <input type="email" name="name" required={true}/>
+    <input type="email" name="email" />
     
   </label> <br/>
   <label>
     Phone: <br/>
-    <input type="text" name="name" required={true}/>
+    <input type="text" name="phone" />
     
   </label> <br/>
   <label>
     Address: <br/>
-    <input type="text" name="name" required={true}/>
+    <input type="text" name="address" />
     
   </label> <br/><br/>
   </form>

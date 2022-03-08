@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Navbar } from "./navbar";
 import "../style/product.css";
 export const Save = () => {
-
   const [data, setData] = useState([]);
   const [bool,setBoool] =useState(false);
    useEffect(()=>{

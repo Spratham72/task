@@ -87,7 +87,7 @@ const ref=useRef(null);
               <p>{el.wine}</p>
             </div>
 
-            <h4>{el.rating.average}</h4>
+            <h4>Ratings: {el.rating.average}/5</h4>
             <button id="cart" onClick={()=>{
                 addCart(el)
             }}>Add to cart</button>
